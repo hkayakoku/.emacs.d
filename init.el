@@ -132,17 +132,17 @@
 (which-key-mode 1)
 
 ;; A light that fallows your cursor
-(use-package beacon)
-(beacon-mode 1)
+;; (use-package beacon)
+;; (beacon-mode 1)
 
 ;; Doom modeline
-(use-package doom-modeline
-  :ensure t
-  :init (doom-modeline-mode 1))
+;; (use-package doom-modeline
+;;   :ensure t
+;;   :init (doom-modeline-mode 1))
 
 ;; use icon-pack to work with doom-modeline
 ;; Note that you can load all-the-icons font from github
-(use-package all-the-icons)
+;; (use-package all-the-icons)
 
 ;; colored delimiters
 (use-package rainbow-delimiters)
@@ -158,12 +158,12 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
-;; Pretify help docs
+;; Pretify Help docs
 (use-package helpful)
 ;; treemacs
 (use-package treemacs)
 ;; charp-mode
-(use-package csharp-mode)
+;; (use-package csharp-mode)
 ;; cmake mode
 (use-package cmake-mode)
 
@@ -171,13 +171,13 @@
 ;; helm configuration
 (load-user-file "helm-init.el")
 ;; pdf-tools
-(load-user-file "pdf-tools-init.el")
+;; (load-user-file "pdf-tools-init.el")
 ;; lsp
-(load-user-file "lsp-mode-init.el")
+;; (load-user-file "lsp-mode-init.el")
 ;; org-mode
-(load-user-file "org-mode-init.el")
+;; (load-user-file "org-mode-init.el")
 ;; clang forma
-(load-user-file "clang-format-init.el")
+;; (load-user-file "clang-format-init.el")
 
 
 

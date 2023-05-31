@@ -9,7 +9,7 @@
 	 ("C-x c o" . helm-occur)
 	 ("M-y" . helm-show-kill-ring)
 	 ("C-x r b" . helm-filtered-bookmars))
-  :preface (require 'helm-config)
+;;  :preface (require 'helm-config)
   :config (helm-mode 1))
 
 (use-package helm-themes)
